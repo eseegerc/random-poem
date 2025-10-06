@@ -1,0 +1,54 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background color */
+body {
+    background-color: #f5d0e1; /* Pale pink background */
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for centering the content */
+.container {
+    text-align: center;
+    color: #4b4b4b; /* Gray color for text */
+}
+
+/* Main title */
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: #4b4b4b;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.5em;
+    color: #a1a1a1;
+    margin-bottom: 2em;
+}
+
+/* Button styling */
+button {
+    font-size: 1.2em;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #e0e0e0, #ffffff, #f5e500); /* Gradient from gray to white to yellow */
+    color: #4b4b4b;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #f5e500, #e0e0e0, #ffffff); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
