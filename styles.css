@@ -8,7 +8,7 @@
 /* Body background color */
 body {
     background-color: #f5d0e1; /* Pale pink background */
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif; /* Less traditional, unique font */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +16,13 @@ body {
     letter-spacing: 1px; /* More space between letters */
 }
 
+
 /* Container for centering the content */
 .container {
     text-align: center;
-    color: #333; /* Darker text color */
+    color: #111; /* Almost black text color */
 }
+
 
 /* Main title */
 h1 {
