@@ -13,42 +13,47 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    letter-spacing: 1px; /* More space between letters */
 }
 
 /* Container for centering the content */
 .container {
     text-align: center;
-    color: #4b4b4b; /* Gray color for text */
+    color: #333; /* Darker text color */
 }
 
 /* Main title */
 h1 {
-    font-size: 3.5em;
-    margin-bottom: 0.5em;
+    font-size: 7em; /* Bigger text */
+    margin-bottom: 1.5em; /* Increased space below title */
     font-weight: 700;
-    color: #4b4b4b;
+    color: #b30000; /* Darker red text */
+    letter-spacing: 3px; /* More space between letters */
 }
 
 /* Subtitle */
 .subtitle {
-    font-size: 1.5em;
-    color: #a1a1a1;
-    margin-bottom: 2em;
+    font-size: 3em; /* Bigger text */
+    color: #4b4b4b; /* Slightly darker subtitle */
+    margin-bottom: 3em; /* Increased space from the title */
+    letter-spacing: 2px; /* More space between letters */
 }
 
 /* Button styling */
 button {
-    font-size: 1.2em;
-    padding: 15px 40px;
+    font-size: 2em; /* Bigger button text */
+    padding: 20px 50px; /* More padding around the button */
     border: none;
     cursor: pointer;
     border-radius: 5px;
     background: linear-gradient(45deg, #e0e0e0, #ffffff, #f5e500); /* Gradient from gray to white to yellow */
     color: #4b4b4b;
     transition: all 0.3s ease;
+    margin-top: 3em; /* More space from the text */
 }
 
 button:hover {
     background: linear-gradient(45deg, #f5e500, #e0e0e0, #ffffff); /* Reverse gradient on hover */
     transform: scale(1.1); /* Slight zoom effect */
 }
+
