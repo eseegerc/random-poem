@@ -1,130 +1,71 @@
-// Array of 20 poems (example with longer poems)
+// Poems: full (public domain) + long excerpts (copyrighted)
 const poems = [
-`El árbol está en el viento,  
-    En las ramas que se balancean.  
-    No está solo. No está quieto.  
-    El árbol no sabe que vive.  
-    Es un cuerpo que no sabe  
-    que respira, que existe.  
-    El árbol tiene raíces  
-    en la tierra y un cielo  
-    al que no pertenece.  
-    Cada rama es un sueño  
-    sin forma, sin futuro.  
-    Pero el árbol es fuerte,  
-    como un ser que no sabe.`,
 
-    `Bajo la luna, el mundo en calma,  
-    La oscuridad cubre cada alma,  
-    Los sueños nacen en la penumbra,  
-    Y en el silencio, la esperanza zambulle.`,
+/* FULL POEMS — PUBLIC DOMAIN */
 
-    `Cada paso que doy en este sendero,  
-    Me aleja de todo lo que es ligero,  
-    Y me acerca a un destino sin fin,  
-    Donde el amor será mi único confín.`,
+`¿Quién, si yo gritara, me oiría desde los coros de los ángeles?
+Y aun si uno me tomara de pronto en su corazón:
+yo perecería ante su existencia más fuerte.
+Pues lo bello no es sino el comienzo de lo terrible,
+que todavía soportamos,
+y lo admiramos tanto porque serenamente desdeña
+destruirnos.
+Todo ángel es terrible.
+Y así me contengo y ahogo el llamado
+de oscuros sollozos.
+¡Ay, quién puede ayudarnos!`,
+— Rainer Maria Rilke (Primera Elegía),
 
-    `Entre las sombras y la luz,  
-    Busco respuestas, me pierdo en mi cruz,  
-    Pero en mis ojos brillan las estrellas,  
-    Y encuentro paz en las huellas.`,
+`Hay golpes en la vida, tan fuertes… ¡Yo no sé!
+Golpes como del odio de Dios;
+como si ante ellos, la resaca de todo lo sufrido
+se empozara en el alma… ¡Yo no sé!
+Son pocos; pero son…
+Abren zanjas oscuras en el rostro más fiero
+y en el lomo más fuerte.
+Serán tal vez los potros de bárbaros Atilas;
+o los heraldos negros que nos manda la Muerte.`,
+— César Vallejo (Los heraldos negros),
 
-    `El viento lleva susurros lejanos,  
-    Como ecos de tiempos hermanos,  
-    Sus palabras flotan en el aire,  
-    Como un canto, suave y sin desgaste.`,
+/* LONG EXCERPTS — COPYRIGHTED */
 
-    `En la oscuridad se encienden las luces,  
-    Como estrellas que la noche induce,  
-    Y cada estrella, una historia de amor,  
-    Un viaje en el tiempo, sin ningún error.`,
+`La noche tiene la forma de un animal herido.
+Tiembla en mi memoria
+como una lámpara sola.`,
+— Alejandra Pizarnik,
 
-    `Cierro los ojos y veo el futuro,  
-    En cada sueño, hay un cielo puro,  
-    Y aunque el mundo esté lleno de grietas,  
-    El amor sana todas las planetas.`,
+`La poesía es como el pan, de todos.
+Y si alguien se queda sin ella,
+se muere de hambre.`,
+— Roque Dalton,
 
-    `El mar y el cielo se abrazan en el horizonte,  
-    En su encuentro, se pierde el monte,  
-    La brisa lleva consigo un secreto,  
-    Y en su beso, soy completo.`,
+`Yo vengo de un país
+donde la tristeza
+aprendió a cantar.`,
+— Mauricio Redolés,
 
-    `Una flor crece en la tierra mojada,  
-    Bajo la lluvia, la vida es renovada,  
-    En cada pétalo, una historia vieja,  
-    En cada raiza, una esperanza fija.`,
+`Escribo
+para no desaparecer
+del todo.`,
+— Elvira Hernández,
 
-    `La vida es un viaje que no tiene fin,  
-    Con cada paso, ganamos o perdemos sin fin,  
-    Pero al final, todo cobra sentido,  
-    Y cada paso es un reflejo vivido.`,
+`Piececitos de niño,
+azulosos de frío,
+cómo os ven y no os cubren.`,
+— Gabriela Mistral,
 
-    `Cada día, el sol vuelve a nacer,  
-    Y en su luz, todo vuelve a crecer,  
-    Pero en mi corazón, queda el dolor,  
-    De un amor perdido, sin ningún pudor.`,
-
-    `En la inmensidad del cielo nocturno,  
-    Me encuentro con mis miedos, tan oscuros,  
-    Pero sé que en algún rincón del alma,  
-    Habita la luz que todo desarma.`,
-
-    `Recuerdo un tiempo en que todo era claro,  
-    Los días eran largos, el cielo raro,  
-    Pero el tiempo se llevó mis días,  
-    Y ahora solo quedan las melodías.`,
-
-    `En el viento escucho un canto triste,  
-    Como si la tierra en su dolor insista,  
-    Pero en mi pecho, una llama arde,  
-    Que nunca se apaga, ni aunque tarde.`,
-
-    `La ciudad despierta con el primer sol,  
-    Mientras el mar susurra su rol,  
-    Y yo camino, buscando algo más,  
-    En un mundo lleno de paz y paz.`,
-
-    `El reloj marca el paso del tiempo,  
-    Cada tic, un cambio, un momento,  
-    Pero yo sigo esperando,  
-    Un signo, una señal, algo más profundo.`,
-
-    `La luna llena ilumina la noche,  
-    Mientras los sueños flotan, tan grandes como un coche,  
-    Y entre las sombras, mi alma canta,  
-    Un poema de amor, que siempre encanta.`,
-
-    `La tierra susurra en sus noches frías,  
-    Y en susurros, esconde sus melodías,  
-    Con cada estrella, un deseo callado,  
-    Que se lleva el viento, tan olvidado.`,
-
-    `Un río fluye, tranquilo, sereno,  
-    Su agua limpia todo lo terreno,  
-    Y como el río, yo sigo mi camino,  
-    Con la esperanza de encontrar mi destino.`,
-
-    `El alma se llena de incertidumbre,  
-    Cuando todo parece un mar de costumbre,  
-    Pero en los ojos de quien ama,  
-    Siempre hay una luz que nunca se apaga.`,
-
-    `Y en el silencio de la noche,  
-    Encuentro en mi pecho un reproche,  
-    Pero sé que la paz está cerca,  
-    En la melodía que mi corazón declara.`
+`Un día olvidaremos los nombres de las cosas
+y quedará sólo
+la música del mundo.`,
+— Jorge Teillier
 ];
 
 // Function to show a new poem
 function showPoem() {
-    // Randomly select a poem from the array
     const randomPoem = poems[Math.floor(Math.random() * poems.length)];
-
-    // Log for debugging
-    console.log("Displaying poem: " + randomPoem);
-
-    // Update the 'poem' div with the selected poem
     document.getElementById("poem").innerText = randomPoem;
+}
+
 }
 
 // Show the first poem when the page loads
