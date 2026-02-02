@@ -1,22 +1,18 @@
 // Array of 20 poems (example with longer poems)
 const poems = [
-El árbol" (traducción de Octavio Paz)
-
-El árbol está en el viento,
-en las ramas que se balancean.
-No está solo. No está quieto.
-El árbol no sabe que vive.
-
-Es un cuerpo que no sabe
-que respira, que existe.
-El árbol tiene raíces
-en la tierra y un cielo
-al que no pertenece.
-
-Cada rama es un sueño
-sin forma, sin futuro.
-Pero el árbol es fuerte,
-como un ser que no sabe.,
+`El árbol está en el viento,  
+    En las ramas que se balancean.  
+    No está solo. No está quieto.  
+    El árbol no sabe que vive.  
+    Es un cuerpo que no sabe  
+    que respira, que existe.  
+    El árbol tiene raíces  
+    en la tierra y un cielo  
+    al que no pertenece.  
+    Cada rama es un sueño  
+    sin forma, sin futuro.  
+    Pero el árbol es fuerte,  
+    como un ser que no sabe.`,
 
     `Bajo la luna, el mundo en calma,  
     La oscuridad cubre cada alma,  
