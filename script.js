@@ -1,6 +1,5 @@
-// Array de poemas: completos y extractos
+// Array de poemas: completos (público dominio) + extractos
 const poems = [
-
 `¿Quién, si yo gritara, me oiría desde los coros de los ángeles?
 Y aun si uno me tomara de pronto en su corazón:
 yo perecería ante su existencia más fuerte.
@@ -58,5 +57,6 @@ function showPoem() {
     const randomPoem = poems[Math.floor(Math.random() * poems.length)];
     document.getElementById("poem").innerText = randomPoem;
 }
+
 
 
