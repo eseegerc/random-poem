@@ -1,15 +1,122 @@
-// Array of poems
+// Array of 20 poems (example with longer poems)
 const poems = [
-    "El sol es brillante, el cielo azul,\nEn mi alma hay un eco de luz,\nCada paso es un nuevo destino,\nCada día un canto divino.",
-    "Noche tras noche, estrellas que brillan,\nEl viento susurra, las hojas que chillan.\nLa luna, tan triste, observa en el mar,\nLo que el alma oculta al soñar.",
-    "Si la vida es un viaje, la muerte es un sueño,\nDonde el amor florece y el miedo es pequeño.\nNo temáis el final, no temáis el dolor,\nTodo se vuelve paz con el amor.",
-    "Caminamos juntos en la oscuridad,\nBajo el cielo estrellado de nuestra verdad.\nCada paso firme, cada mirada clara,\nEl amor es nuestro faro, nuestra cara.",
-    "A veces, el viento trae consigo,\nLa melodía de un viejo abrigo,\nQue en su susurro nos habla de amor,\nDe tiempos lejanos, de un mundo mejor.",
-    "La luna se refleja en el agua tranquila,\nComo un espejo de luz que brilla.\nY en el silencio del mar profundo,\nEl alma canta su propio mundo.",
-    "Bajo el árbol, en su sombra fría,\nMedito sobre la vida, sobre el día.\nCada hoja que cae es un pensamiento,\nCada raíz es un anhelo lento.",
-    "El sol despierta y pinta el cielo,\nEl aire fresco trae su consuelo,\nLas aves cantan, el río susurra,\nLa naturaleza es poesía que murmura.",
-    "La flor que crece en el jardín del alma,\nEs la esperanza que da calma.\nAunque la tormenta venga a llorar,\nLa flor siempre volverá a brillar.",
-    "Si el amor es el fuego que consume,\nLa pasión es la llama que resume.\nBajo el cielo estrellado, tan quieto,\nEl corazón late, siempre completo."
+El árbol" (traducción de Octavio Paz)
+
+El árbol está en el viento,
+en las ramas que se balancean.
+No está solo. No está quieto.
+El árbol no sabe que vive.
+
+Es un cuerpo que no sabe
+que respira, que existe.
+El árbol tiene raíces
+en la tierra y un cielo
+al que no pertenece.
+
+Cada rama es un sueño
+sin forma, sin futuro.
+Pero el árbol es fuerte,
+como un ser que no sabe.,
+
+    `Bajo la luna, el mundo en calma,  
+    La oscuridad cubre cada alma,  
+    Los sueños nacen en la penumbra,  
+    Y en el silencio, la esperanza zambulle.`,
+
+    `Cada paso que doy en este sendero,  
+    Me aleja de todo lo que es ligero,  
+    Y me acerca a un destino sin fin,  
+    Donde el amor será mi único confín.`,
+
+    `Entre las sombras y la luz,  
+    Busco respuestas, me pierdo en mi cruz,  
+    Pero en mis ojos brillan las estrellas,  
+    Y encuentro paz en las huellas.`,
+
+    `El viento lleva susurros lejanos,  
+    Como ecos de tiempos hermanos,  
+    Sus palabras flotan en el aire,  
+    Como un canto, suave y sin desgaste.`,
+
+    `En la oscuridad se encienden las luces,  
+    Como estrellas que la noche induce,  
+    Y cada estrella, una historia de amor,  
+    Un viaje en el tiempo, sin ningún error.`,
+
+    `Cierro los ojos y veo el futuro,  
+    En cada sueño, hay un cielo puro,  
+    Y aunque el mundo esté lleno de grietas,  
+    El amor sana todas las planetas.`,
+
+    `El mar y el cielo se abrazan en el horizonte,  
+    En su encuentro, se pierde el monte,  
+    La brisa lleva consigo un secreto,  
+    Y en su beso, soy completo.`,
+
+    `Una flor crece en la tierra mojada,  
+    Bajo la lluvia, la vida es renovada,  
+    En cada pétalo, una historia vieja,  
+    En cada raiza, una esperanza fija.`,
+
+    `La vida es un viaje que no tiene fin,  
+    Con cada paso, ganamos o perdemos sin fin,  
+    Pero al final, todo cobra sentido,  
+    Y cada paso es un reflejo vivido.`,
+
+    `Cada día, el sol vuelve a nacer,  
+    Y en su luz, todo vuelve a crecer,  
+    Pero en mi corazón, queda el dolor,  
+    De un amor perdido, sin ningún pudor.`,
+
+    `En la inmensidad del cielo nocturno,  
+    Me encuentro con mis miedos, tan oscuros,  
+    Pero sé que en algún rincón del alma,  
+    Habita la luz que todo desarma.`,
+
+    `Recuerdo un tiempo en que todo era claro,  
+    Los días eran largos, el cielo raro,  
+    Pero el tiempo se llevó mis días,  
+    Y ahora solo quedan las melodías.`,
+
+    `En el viento escucho un canto triste,  
+    Como si la tierra en su dolor insista,  
+    Pero en mi pecho, una llama arde,  
+    Que nunca se apaga, ni aunque tarde.`,
+
+    `La ciudad despierta con el primer sol,  
+    Mientras el mar susurra su rol,  
+    Y yo camino, buscando algo más,  
+    En un mundo lleno de paz y paz.`,
+
+    `El reloj marca el paso del tiempo,  
+    Cada tic, un cambio, un momento,  
+    Pero yo sigo esperando,  
+    Un signo, una señal, algo más profundo.`,
+
+    `La luna llena ilumina la noche,  
+    Mientras los sueños flotan, tan grandes como un coche,  
+    Y entre las sombras, mi alma canta,  
+    Un poema de amor, que siempre encanta.`,
+
+    `La tierra susurra en sus noches frías,  
+    Y en susurros, esconde sus melodías,  
+    Con cada estrella, un deseo callado,  
+    Que se lleva el viento, tan olvidado.`,
+
+    `Un río fluye, tranquilo, sereno,  
+    Su agua limpia todo lo terreno,  
+    Y como el río, yo sigo mi camino,  
+    Con la esperanza de encontrar mi destino.`,
+
+    `El alma se llena de incertidumbre,  
+    Cuando todo parece un mar de costumbre,  
+    Pero en los ojos de quien ama,  
+    Siempre hay una luz que nunca se apaga.`,
+
+    `Y en el silencio de la noche,  
+    Encuentro en mi pecho un reproche,  
+    Pero sé que la paz está cerca,  
+    En la melodía que mi corazón declara.`
 ];
 
 // Function to show a new poem
@@ -24,6 +131,6 @@ function showPoem() {
     document.getElementById("poem").innerText = randomPoem;
 }
 
-// Call the function to display the first poem on page load
+// Show the first poem when the page loads
 showPoem();
 
