@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Poemota del Día</title>
-    <style>
-        body { font-family: 'Playfair Display', serif; padding: 2rem; background: #f8f8f8; }
-        .container { max-width: 600px; margin: auto; text-align: center; }
-        .poem { margin: 2rem 0; white-space: pre-wrap; }
-        button { padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer; }
-    </style>
+    <title>Tu Poema del Día</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Tu Poema del Día</h1>
         <p class="subtitle">Dein Gedicht des Tages</p>
+
+        <!-- Poema aparecerá aquí -->
         <div id="poem" class="poem"></div>
+
+        <!-- Botón para mostrar poema -->
         <button id="newPoemBtn">Ver otro poema</button>
     </div>
 
-    <!-- JS -->
+    <!-- JS con cache-buster -->
     <script src="script.js?v=1"></script>
     <script>
-        // Garantiza que solo se muestre poema al hacer click
+        // Mostrar poema solo al hacer click
         document.getElementById('newPoemBtn').addEventListener('click', showPoem);
     </script>
 </body>
 </html>
+
 
