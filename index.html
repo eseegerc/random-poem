@@ -6,12 +6,51 @@
     <title>Tu Poema del Día</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .poem {
+            font-size: 1.2em;
+            margin-top: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Tu Poema del Día</h1>
         <p class="subtitle">Dein Gedicht des Tages</p>
-        <button onclick="window.location.reload()">Ver otro poema</button>
+
+        <!-- Display Poem -->
+        <div id="poem" class="poem"></div>
+
+        <!-- Button to show another poem -->
+        <button onclick="showPoem()">Ver otro poema</button>
     </div>
+
+    <script>
+        const poems = [
+            "El sol es brillante, el cielo azul,\nEn mi alma hay un eco de luz,\nCada paso es un nuevo destino,\nCada día un canto divino.",
+            "Noche tras noche, estrellas que brillan,\nEl viento susurra, las hojas que chillan.\nLa luna, tan triste, observa en el mar,\nLo que el alma oculta al soñar.",
+            "Si la vida es un viaje, la muerte es un sueño,\nDonde el amor florece y el miedo es pequeño.\nNo temáis el final, no temáis el dolor,\nTodo se vuelve paz con el amor.",
+            "Caminamos juntos en la oscuridad,\nBajo el cielo estrellado de nuestra verdad.\nCada paso firme, cada mirada clara,\nEl amor es nuestro faro, nuestra cara.",
+            "A veces, el viento trae consigo,\nLa melodía de un viejo abrigo,\nQue en su susurro nos habla de amor,\nDe tiempos lejanos, de un mundo mejor.",
+            "La luna se refleja en el agua tranquila,\nComo un espejo de luz que brilla.\nY en el silencio del mar profundo,\nEl alma canta su propio mundo.",
+            "Bajo el árbol, en su sombra fría,\nMedito sobre la vida, sobre el día.\nCada hoja que cae es un pensamiento,\nCada raíz es un anhelo lento.",
+            "El sol despierta y pinta el cielo,\nEl aire fresco trae su consuelo,\nLas aves cantan, el río susurra,\nLa naturaleza es poesía que murmura.",
+            "La flor que crece en el jardín del alma,\nEs la esperanza que da calma.\nAunque la tormenta venga a llorar,\nLa flor siempre volverá a brillar.",
+            "Si el amor es el fuego que consume,\nLa pasión es la llama que resume.\nBajo el cielo estrellado, tan quieto,\nEl corazón late, siempre completo."
+        ];
+
+        // Function to display a new poem
+        function showPoem() {
+            // Randomly select a poem
+            const randomPoem = poems[Math.floor(Math.random() * poems.length)];
+            // Display it in the poem container
+            document.getElementById("poem").innerText = randomPoem;
+        }
+
+        // Show the first poem when the page loads
+        showPoem();
+    </script>
 </body>
 </html>
+
