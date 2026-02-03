@@ -35,19 +35,19 @@ h1 {
 
 /* Subtitle */
 .subtitle {
-    font-size: 3em; /* Bigger text */
+    font-size: 1em; /* Bigger text */
     color: #4b4b4b; /* Slightly darker subtitle */
     margin-bottom: 3em; /* Increased space from the title */
-    letter-spacing: 2px; /* More space between letters */
+    letter-spacing: 0.5px; /* More space between letters */
 }
 
 /* Button styling */
 button {
     font-size: 2em; /* Bigger button text */
-    padding: 20px 50px; /* More padding around the button */
+    padding: 20px 80px; /* More padding around the button */
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 25px;
     background: linear-gradient(45deg, #e0e0e0, #ffffff, #f5e500); /* Gradient from gray to white to yellow */
     color: #4b4b4b;
     transition: all 0.3s ease;
